@@ -440,3 +440,8 @@ table a, #comments a{background-color:inherit;}
        height: 20em;  
        width: 80%;  
 }
+
+.top-cover{
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
