@@ -453,3 +453,41 @@ table a, #comments a{background-color:inherit;}
     justify-content: center;
 }
 
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+   /* color:#FFF;*/
+    font-size:2em;
+    border-radius:4px;
+    /*border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+.zone:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: black;
+   /* padding: 50px;*/
+    margin: 50px;
+}
+
+.box:hover {
+    transform: scale(1.02);
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+
+.lower-section{
+	height: 50vh; 
+}
